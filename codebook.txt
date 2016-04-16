@@ -1,0 +1,36 @@
+Codebook for Final Project, Course 3:  Getting and Cleaning Data
+
+Variable names and descriptions, in order of appearance in project scripts:
+
+testfset - features data in test set
+
+trainfset - features data in training set
+
+testactset - activities in test set
+
+trainactset - activities in training set
+
+testsubset - subjects in test set
+
+trainsubset - subjects in training set
+
+totalfset - combined test/training features data
+
+totalactset - combined test/training activity data
+
+totalsubset - combined test/training subject data
+
+featurenames - feature names (column headers for features data set)
+
+subandact - temporary holding place for binding the subject and activity data together
+
+allset - all feature, subject, and activity data in one data set before further tweaking and subsetting
+
+meanstdcolnums - the column numbers that contain just teh mean and standard deviation values of the features measurement data
+
+meanstdset - just the columns from the "allset" dataset taht contain the mean and standard deviation data, along with the activity and subject data.
+
+actlabels - activity names (WALKING, etc.) data read from file
+
+tidy_avgs - the final dataset in Part 5 representing just the average values broken down by subject and activity
+
